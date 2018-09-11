@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Hello World</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <style>
+    html {
+      font-family: 'Roboto', sans-serif;
+      }
+      body {
+        background-image: url("https://hdqwalls.com/download/firewatch-game-tower-4k-1920x1080.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        background-blend-mode: darken;
+        margin: 0;
+      }
+      h1 {
+        color: azure;
+      }
+      p {
+        color: azure;
+      }
+      container {
+        margin: 0 auto;
+        width: 80%;
+      }
+      header {
+        background-color: darkslategray;
+        padding-top: 20px;
+        opacity: .9;
+      }
+      header::after {
+        content: '';
+        display: table;
+        clear: both;
+      }
+      nav {
+        float: right;
+      }
+      nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      nav li {
+        display: inline-block;
+        margin-left: 50px;
+        padding-bottom: 20px;
+        padding-right: 25px;
+      }
+      nav a {
+        color: azure;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: block;
+      }
+      nav a:hover {
+        color: black;
+      }
+      .main {
+        padding-left: 25px;
+      }
+      .active {
+        color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="games.html">Games</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="main">
+      <h1>Games</h1>
+      <iframe frameborder="0" src="https://itch.io/embed/266060?border_width=2" width="554" height="169"></iframe>
+      <iframe frameborder="0" src="https://itch.io/embed/228208?border_width=2" width="554" height="169"></iframe>
+      <iframe frameborder="0" src="https://itch.io/embed/277702?border_width=2" width="554" height="169"></iframe>
+    </div>
+  </body>
+
+</html>
